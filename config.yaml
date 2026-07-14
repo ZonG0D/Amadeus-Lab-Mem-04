@@ -1,0 +1,12 @@
+# Hardware Mapping (The "Nervous System" configuration)
+models:
+  sentry:
+    url: "http://localhost:11435/api/chat" # RTX 3060 12GB
+    name: "gemma4:e2b"
+  thinker:
+    url: "http://localhost:11434/api/chat" # Blackwell Pro 32GB
+    name: "agent-bridge:latest"
+
+paths:
+  watch_dir: "/home/kurisu/research_inbox"
+  output_dir: "/home/kurisu/ai_insights"
